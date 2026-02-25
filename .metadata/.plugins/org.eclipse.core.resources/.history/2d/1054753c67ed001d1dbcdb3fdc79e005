@@ -1,0 +1,28 @@
+package Practice;
+
+public class ReversString {
+
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+	
+	public void first() {
+		
+		String str="Hello";
+		System.out.println(str.charAt(0));
+//		
+//		for(int i=str.length(); i>=0 i++) {
+//			
+//			System.out.println();
+//			
+//		}
+//		
+//		
+		
+		
+	}
+	
+}

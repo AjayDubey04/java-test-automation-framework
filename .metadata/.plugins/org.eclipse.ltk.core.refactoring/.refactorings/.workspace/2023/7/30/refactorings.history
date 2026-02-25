@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;selenium.webdriver&apos; to &apos;org.selenium.webdriver&apos;" description="Rename resource &apos;selenium.webdriver&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/selenium.webdriver" name="org.selenium.webdriver" stamp="1690479245062" updateReferences="true"/>
+</session>

@@ -1,0 +1,10 @@
+package up.and.down.casting;
+
+public class PracticeUpAndDownCasting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

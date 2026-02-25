@@ -1,0 +1,65 @@
+package RecapCoding;
+
+import java.util.ArrayList;
+import java.util.Random;
+
+public class InterviewProgramm {
+
+	public static void main(String[] args) {
+
+		 meargTwoarray(); 
+
+	}
+
+
+	public static void countCapitalLatter() {
+
+		String str="I Am Going To marKet";
+		int count=0;
+		for (int i = 0; i <str.length(); i++) {
+			for(char a='A'; a<'Z'; a++) {
+				if(str.charAt(i)==a) {
+					count++;
+					System.out.println(a);
+				}
+			}
+		}
+
+		System.out.println("Size ==>> "+count);
+
+
+
+	}
+
+
+	public  static void meargTwoarray() {
+
+		int a[]= {1,2,3,4,5};
+		int b[]= {6,7,8,9,10};
+       int length=a.length+b.length;
+       int[] arr=new int [length]; 
+       System.out.println(arr.length);
+       for (int i = 0; i <arr.length; i++) {
+    	   if(i<=4) {
+    		   System.out.println(a[i]);
+    	   }
+			if(i<=5) {
+				System.out.println(b[i]);
+			}
+		}
+	
+	}
+	
+	
+	public static void add_9_value() {
+		
+		int arr[]= {1,2,3,4,5,6,7,8,9};
+		for (int i = 0; i < arr.length; i++) {
+			Random a=new Random();
+			a.ints(arr[i]);
+			System.out.println(a.);
+		}
+		
+	}
+
+}

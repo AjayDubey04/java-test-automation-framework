@@ -1,0 +1,21 @@
+package Each.And.Every;
+
+import up.and.down.casting.A;
+import up.and.down.casting.C;
+
+public class InheritDemo {
+	
+
+
+	  InheritDemo(String str) {
+       System.out.println(str);
+	}
+	  
+	  public static void main(String[] args) {
+			
+			A obj=new A();
+			
+		}
+		  
+
+}

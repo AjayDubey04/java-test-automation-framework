@@ -1,0 +1,156 @@
+{
+    "id": 4646552699469824,
+    "type": "PERSON",
+    "created_time": 1687617023,
+    "updated_time": 1688780528,
+    "last_contacted": 0,
+    "last_emailed": 0,
+    "last_campaign_emaild": 0,
+    "last_called": 0,
+    "viewed_time": 0,
+    "viewed": {
+        "viewed_time": 1688781109805,
+        "viewer_id": 5295473452974080
+    },
+    "star_value": 4,
+    "lead_score": 92,
+    "klout_score": "",
+    "tags": [
+        "Lead",
+        "Likely Buyer",
+        "Hello-Tags",
+        "testingtesto"
+    ],
+    "tagsWithTime": [
+        {
+            "tag": "Lead",
+            "createdTime": 1687617023469,
+            "availableCount": 0,
+            "entity_type": "tag"
+        },
+        {
+            "tag": "Likely Buyer",
+            "createdTime": 1687617023469,
+            "availableCount": 0,
+            "entity_type": "tag"
+        },
+        {
+            "tag": "Hello-Tags",
+            "createdTime": 1687617590408,
+            "availableCount": 0,
+            "entity_type": "tag"
+        },
+        {
+            "tag": "testingtesto",
+            "createdTime": 1687620192954,
+            "availableCount": 0,
+            "entity_type": "tag"
+        }
+    ],
+    "properties": [
+        {
+            "type": "SYSTEM",
+            "name": "first_name",
+            "value": "Dubey"
+        },
+        {
+            "type": "SYSTEM",
+            "name": "last_name",
+            "value": "Ji"
+        },
+        {
+            "type": "SYSTEM",
+            "name": "email",
+            "subtype": "work",
+            "value": "dubey.ji12@yes.com"
+        },
+        {
+            "type": "SYSTEM",
+            "name": "address",
+            "value": "{\"zip\":\"2000\",\"country\":\"IN\",\"address\":\"225 George Street\",\"city\":\"NSW\",\"countryname\":\"India\",\"state\":\"UP\"}"
+        },
+        {
+            "type": "SYSTEM",
+            "name": "phone",
+            "subtype": "work",
+            "value": "7647867863"
+        },
+        {
+            "type": "SYSTEM",
+            "name": "phone",
+            "subtype": "home",
+            "value": "47376578368"
+        },
+        {
+            "type": "SYSTEM",
+            "name": "website",
+            "subtype": "YOUTUBE",
+            "value": "www.flipkart.com"
+        },
+        {
+            "type": "SYSTEM",
+            "name": "website",
+            "subtype": "LINKEDIN",
+            "value": "www.linkedin.com"
+        },
+        {
+            "type": "SYSTEM",
+            "name": "website",
+            "subtype": "URL",
+            "value": "www.mywebsite.com"
+        },
+        {
+            "type": "CUSTOM",
+            "name": "My custom field of type text",
+            "value": "My name is Dubeyji"
+        },
+        {
+            "type": "CUSTOM",
+            "name": "My custom field of type date",
+            "value": "1479580200"
+        },
+        {
+            "type": "CUSTOM",
+            "name": "My custom field of type checkbox",
+            "value": "on"
+        },
+        {
+            "type": "CUSTOM",
+            "name": "My custom field of type list",
+            "value": "lemon"
+        },
+        {
+            "type": "CUSTOM",
+            "name": "My custom field of type companies",
+            "value": "[\"5767466600890368\",\"5114076984246272\",\"5746725247516672\"]"
+        }
+    ],
+    "campaignStatus": [],
+    "entity_type": "contact_entity",
+    "source": "api",
+    "unsubscribeStatus": [],
+    "emailBounceStatus": [],
+    "formId": 0,
+    "browserId": [],
+    "lead_source_id": 0,
+    "lead_status_id": 0,
+    "is_lead_converted": false,
+    "lead_converted_time": 0,
+    "is_duplicate_existed": false,
+    "trashed_time": 0,
+    "restored_time": 0,
+    "is_duplicate_verification_failed": false,
+    "is_client_import": false,
+    "concurrent_save_allowed": true,
+    "owner": {
+        "id": 5295473452974080,
+        "domain": "evsautomation",
+        "email": "createrajay229@btech.com",
+        "phone": "",
+        "name": "ajay dubey",
+        "pic": "https://d1gwclp1pmzk26.cloudfront.net/img/gravatar/48.png",
+        "schedule_id": "ajay_dubey",
+        "calendar_url": "https://evsautomation.agilecrm.com/calendar/ajay_dubey",
+        "calendarURL": "https://evsautomation.agilecrm.com/calendar/ajay_dubey"
+    }
+}

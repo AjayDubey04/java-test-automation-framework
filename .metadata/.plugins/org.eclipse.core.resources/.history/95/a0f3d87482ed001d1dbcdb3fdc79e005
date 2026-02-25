@@ -1,0 +1,24 @@
+package Practice;
+
+public class ReversString {
+
+	
+	public static void main(String[] args) {
+		
+		first();
+		
+	}
+	
+	public static void first() {
+		
+	String str="Hello";
+	System.out.println(str.length());
+//	for (int i =str.length(); i < array.length; i++) {
+//		
+//	}
+	}
+	
+	
+	
+	
+}

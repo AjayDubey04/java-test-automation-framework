@@ -1,0 +1,26 @@
+package up.and.down.casting;
+
+public class PracticeUpAndDownCasting {
+
+	public static void main(String[] args) {
+
+
+
+		B obj1=new B(); // normal object
+		obj1.b1();
+//		obj1.a2();
+
+		A obj2=new C(); // upcasting object
+		obj2.a1();
+
+		C obj3=(C) obj2; // downcasting object
+		obj3.c1();
+
+
+		
+
+
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package predefine.methods;
+
+public abstract class TargetLocatorUtill {
+
+}

@@ -1,0 +1,95 @@
+package Automate;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Roshan_Sir {
+
+	static ChromeDriver driver=new ChromeDriver();
+	static {
+		System.setProperty("webdriver.chrome.driver", "driver//chromedriver.exe");
+		driver.get("http://practice.automationtesting.in");
+	}
+//	static ChromeDriver driver=new ChromeDriver();
+	public static void main(String[] args) throws InterruptedException {
+		
+		driver.get("http://practice.automationtesting.in");
+		verify();
+		verify1();
+		verify2();		
+
+	}
+
+	public static void verify() throws InterruptedException {
+		
+		driver.findElement(By.xpath("//a[text()='My Account']")).click();
+		WebElement we=driver.findElementByXPath("//input[@name='email']");
+	    boolean user=we.isDisplayed();
+	    if(user==true){
+	    	System.out.println("Email Box is visible");
+	    }else {
+	    	System.out.println("Email Box is invisible");	
+	    }
+	    
+	    we.sendKeys("roshan.morningStar778@yopmail.com");
+		WebElement we1=driver.findElementByXPath("(//input[@name='password'])[2]");
+		boolean pass=we1.isDisplayed();
+	    if(pass==true){
+	    	System.out.println("Password Box is visible");
+	    }else {
+	    	System.out.println("Password Box is invisible");	
+	    }
+	    
+		we1.sendKeys("Roshan@morningstar");
+		WebElement we2=driver.findElementByXPath("//input[@name='register']");
+		boolean rgister=we1.isDisplayed();
+	    if(rgister==true){
+	    	System.out.println("Register Button is visible");
+	    }else {
+	    	System.out.println("Register Button is invisible");	
+	    }
+	    
+	    Thread.sleep(4000);
+				we2.click();
+		driver.findElementByXPath("//input[@name='email']").click();
+		driver.findElementByXPath("//input[@name='register']").click();
+	    String homepage=driver.getTitle();
+		System.out.println("Home page Title = "+homepage);
+	}
+	public static void verify1() throws InterruptedException 
+	{
+
+		driver.findElement(By.xpath("//a[text()='My Account']")).click();
+		driver.findElementByXPath("//input[@name='email']").sendKeys("roshan.morningStar212@tplink");
+
+		driver.findElementByXPath("(//input[@name='password'])[2]").sendKeys("Roshan@morningstar");
+		driver.findElementByXPath("//input[@name='register']").click();
+		Thread.sleep(4000);
+		String valid="You must enter a valid email address";
+		String verify=driver.findElementByXPath("//li[text()=' Please provide a valid email address.']").getText();
+		System.out.println(verify);
+		if(valid.equalsIgnoreCase(verify)) {
+			System.out.println("Correct Error so test is passed");
+		}else {
+			System.out.println("Incorrect Error so test is failed");
+		}
+	}
+	public static void verify2() 
+	{
+		
+		driver.findElement(By.xpath("//a[text()='My Account']")).click();
+		driver.findElementByXPath("//input[@name='email']").sendKeys("  ");
+		driver.findElementByXPath("(//input[@name='password'])[2]").sendKeys("Roshan@morningstar");
+		driver.findElementByXPath("//input[@name='register']").click();
+		
+		String error="Please provide a valid email address.";
+		String verify=driver.findElementByXPath("//li[text()=' Please provide a valid email address.']").getText();
+		System.out.println(verify);
+		if(error.equalsIgnoreCase(verify)) {
+			System.out.println("Correct Error so test is passed");
+		}else {
+		System.out.println("Incorrect Error so test is failed");
+		}
+	}
+}

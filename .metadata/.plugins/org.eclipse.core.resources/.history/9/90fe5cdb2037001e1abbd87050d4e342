@@ -1,0 +1,25 @@
+package org.vtiger.crm.marketing.accounts;
+
+import org.generic.layer.WebUtil;
+import org.openqa.selenium.By;
+
+public class MarketingAccountsLandingPage {
+	
+	
+	
+	public static void goToMarketingAccountsPage() throws InterruptedException {
+		
+		WebUtil.myMouseOver(By.linkText("Marketing"), "Marketing Link");
+		WebUtil.myActionsClick(By.xpath("//div[@id='Marketing_sub']//a[text()='Accounts']"), "Marketing Accounts Sub Link");
+		
+	}
+	
+	public static void verifyMarketingAccountsPageHaders() throws InterruptedException {
+		
+		String expected_innerText="Marketing > Accounts";
+		String actual_innerText = WebUtil.myGetText(By.xpath("//td[@class='moduleName']"),"Marketing Accounts ModuleName");
+		WebUtil.verifyTextData(expected_innerText,actual_innerText);
+		
+	}
+	
+}

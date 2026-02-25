@@ -1,0 +1,77 @@
+package predefine.methods;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriver.Navigation;
+import org.openqa.selenium.WebDriver.TargetLocator;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ChromeDriverUtill  implements WebDriverUtill{
+
+	public WebDriver driver=new ChromeDriver();
+	
+	@Override
+	public void getUrlUtill(String url) {
+		// TODO Auto-generated method stub
+		driver.get(url);
+	}
+
+	@Override
+	public WebDriverUtill findElementUtill(By obj) {
+		// TODO Auto-generated method stub
+		driver.findElement(obj);
+		return null;
+	}
+
+	@Override
+	public ListUtill findElementsUtill(By obj) {
+		// TODO Auto-generated method stub
+		driver.findElements(obj);
+		return null;
+	}
+
+	@Override
+	public String getTitleUtill() {
+		// TODO Auto-generated method stub
+		String title=driver.getTitle();
+		return title;
+	}
+
+	@Override
+	public String getCurrentUrlUtill() {
+		// TODO Auto-generated method stub
+		String current_url=driver.getCurrentUrl();
+		return current_url;
+		
+	}
+
+	@Override
+	public TargetLocatorUtill switchToUtill() {
+		// TODO Auto-generated method stub
+		TargetLocator obj=driver.switchTo();
+		return null;
+	}
+
+	@Override
+	public void closeUtill() {
+		// TODO Auto-generated method stub
+		driver.close();
+	}
+
+	@Override
+	public void quitUtill() {
+		// TODO Auto-generated method stub
+		driver.quit();
+	}
+
+	@Override
+	public Navigation navigateUtill() {
+		// TODO Auto-generated method stub
+		Navigation obj=driver.navigate();
+		return obj;
+	}
+	
+	
+	
+
+}

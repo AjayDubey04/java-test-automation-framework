@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;api.runner&apos; to &apos;com.api.runner&apos;&#x0D;&#x0A;- Original project: &apos;res-api-bdd-automation&apos;&#x0D;&#x0A;- Original element: &apos;res-api-bdd-automation/src/test/java/api.runner&apos;&#x0D;&#x0A;- Renamed element: &apos;res-api-bdd-automation/src/test/java/com.api.runner&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings&#x0D;&#x0A;- Rename subpackages of the package" description="Rename package &apos;api.runner&apos;" flags="589830" hierarchical="true" id="org.eclipse.jdt.ui.rename.package" input="/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;api.runner" name="com.api.runner" qualified="false" references="true" stamp="1701402565033" textual="false" version="1.0"/>
+</session>

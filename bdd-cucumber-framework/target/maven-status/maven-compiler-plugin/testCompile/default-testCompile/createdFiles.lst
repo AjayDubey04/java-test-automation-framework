@@ -1,0 +1,8 @@
+com\vtigercrm\datatable\stepdefinitions\MultipleDataByDataTable.class
+com\vtigercrm\hooks\Hooks.class
+com\vtigercrm\marketing\stepdefinitions\MarketingAccountStepDefinitions.class
+com\vtigercrm\runners\TestRunner.class
+com\vtigercrm\scenariooutline\stepdefinitions\MultipleDataByScenarioOutline.class
+com\vtigercrm\common\stepdefinitions\CommonPageStepDefinitions.class
+com\vtigercrm\runners\EmailSender.class
+com\vtigercrm\runners\EmailSender$1.class

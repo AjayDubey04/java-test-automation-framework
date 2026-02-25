@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;com.real.project&apos; to &apos;vtiger.com.realtime&apos;" description="Rename resource &apos;com.real.project&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/com.real.project" name="vtiger.com.realtime" stamp="1699633698082" updateReferences="true"/>
+</session>

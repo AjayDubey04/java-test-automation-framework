@@ -1,0 +1,36 @@
+package S_Project;
+
+import java.util.List;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class Automate {
+	
+//	 ChromeDriver ob=new ChromeDriver();
+//	{
+//		System.setProperty("webdriver.chrome.driver", "Driver\\\\chromedriver.exe");
+//	}
+//	 
+//	static {
+//		 System.setProperty("webdriver.chrome.driver", "Driver\\\\chromedriver.exe");
+//   
+//	 }
+	
+	public static void main(String[] args) 
+	{
+		 System.setProperty("webdriver.chrome.driver", "Driver\\chromedriver.exe");
+		 ChromeDriver obj=new ChromeDriver();
+		 obj.get("http://www.facebook.com");
+		 
+		 System.setProperty("webdriver.edge.driver", "Driver\\msedgedriver.exe"); 
+		 EdgeDriver only=new EdgeDriver();
+		 only.get("http://localhost:8888");
+		 only.get("http://whatsapp.com");
+		 only.get("http://gmail.com");
+		WebElement hii= only.findElementByXPath("//input[@type=\"email\"]");
+		hii.sendKeys("ajaydubeyji63@outlook.com");
+
+	}	
+}

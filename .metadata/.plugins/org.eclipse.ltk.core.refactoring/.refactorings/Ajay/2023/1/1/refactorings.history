@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Aadhar_Practice&apos; to &apos;Aadhar Card/src&apos;&#x0D;&#x0A;- Original project: &apos;Ajay&apos;&#x0D;&#x0A;- Destination element: &apos;Aadhar Card/src&apos;&#x0D;&#x0A;- Original element: &apos;Aadhar_Practice&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move folder" destination="=Aadhar Card/src" element1="Aadhar_Practice" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1672998706445" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,36 @@
+package Practice;
+
+public class SnapShot {
+	
+	
+	public static void main(String[] args) {
+//		int number=987654321;
+//		int remainder;
+//		int reverse=0;
+//		while(number>0)
+//		{
+//		remainder=number%10;
+//		reverse=reverse*10 +remainder;
+//		number=number/10;
+//		
+//		}
+//		System.out.println(reverse);
+//		
+		int a=5;
+		while(a>0)
+		{
+		System.out.println(a);
+		a--;
+		}
+		
+		System.out.println();
+		
+		
+		
+		
+		
+		
+	}
+	
+
+}

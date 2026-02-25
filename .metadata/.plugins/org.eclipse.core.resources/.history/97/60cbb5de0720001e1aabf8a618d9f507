@@ -1,0 +1,59 @@
+package read.json.data;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+import org.json.JSONObject;
+
+import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+
+public class ResponseValidation {
+
+	public static void main(String[] args) throws  {
+		
+		ResponseValidation obj=new ResponseValidation();
+		obj.verifyResponseData();
+
+	}
+	
+	public void verifyResponseData() throws IOException {
+		
+		Path pathObj=Paths.get("Json_Paylod\\JSONData.json");
+		byte[] filePath=Files.readAllBytes(pathObj);
+		String str=new String(filePath);
+		
+		JSONObject jsObj=new JSONObject(str);
+		
+		Object expected_ID=jsObj.get("id");
+		String id=(String) expected_ID;
+		System.out.println(id.length());
+		
+		
+		
+		
+		Response rsp=RestAssured.given().auth().basic("createrajay229@btech.com", "Ajay@66#")
+		.accept(ContentType.JSON)
+		.when().get("https://evsautomation.agilecrm.com/dev/api/contacts/4646552699469824");
+		
+		System.out.println("Statuc Code "+rsp.getStatusCode());
+		System.out.println("Response time "+rsp.getTime());
+		String responseData=rsp.asPrettyString();
+		System.out.println(responseData);
+		
+		JSONObject jsResponse=new JSONObject(responseData);
+		System.out.println(jsResponse.getLong("id"));
+		
+		if(jsResponse.getLong("id")==id.length()) {
+			System.out.println("id is 16 digit as Long type");
+		}else {
+			System.out.println("id is not 16 digit as Long type");
+		}
+		
+		
+	}
+
+}

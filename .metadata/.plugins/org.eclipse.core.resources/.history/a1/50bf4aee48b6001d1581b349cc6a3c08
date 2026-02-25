@@ -1,0 +1,28 @@
+package predefine.methods;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver.Navigation;
+
+public interface WebDriverUtill {
+	
+	public  abstract void getUrlUtill(String url);
+	
+	public abstract WebDriverUtill findElementUtill(By obj);
+	
+	public abstract ListUtill findElementsUtill(By obj);
+	
+	public abstract String getTitleUtill();
+	
+	public abstract String getCurrentUrlUtill();
+	
+	public abstract TargetLocatorUtill switchToUtill();
+	
+	public abstract void closeUtill();
+	
+	public abstract void quitUtill();
+	
+	public abstract Navigation navigateUtill();
+	
+	
+
+}

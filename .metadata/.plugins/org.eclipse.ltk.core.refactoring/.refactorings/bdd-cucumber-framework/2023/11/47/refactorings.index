@@ -1,0 +1,21 @@
+1700663719173	Rename package 'com.stepdefs.runner'
+1700663818999	Rename package 'com.vtiger.stepdefs.common'
+1700663928532	Move compilation unit
+1700664111639	Rename package 'com.vtiger.stepdefs.hooks'
+1700664122859	Rename package 'com.vtigercrm.s.hooks'
+1700664158082	Rename package 'com.vtiger.stepdefs.multiple.datatable'
+1700664182584	Move compilation unit
+1700664200874	Delete element
+1700664258553	Rename package 'com.vtigercrm.stepdefs.common'
+1700664287469	Rename package 'com.vtiger.stepdefs.marketing'
+1700664402190	Rename package 'com.vtiger.stepdefs.multiple.scenariooutline'
+1700664419629	Rename package 'com.vtigercrm.datatable'
+1700665075034	Delete element
+1700665349213	Delete element
+1700675727230	Delete element
+1700675739630	Delete element
+1700676164861	Rename package 'com.marketing.accountspage'
+1700676195691	Rename package 'com.vtiger.homepage.page'
+1700676213777	Rename package 'com.utilitylayer'
+1700676243152	Rename package 'com.commonpage'
+1700676563018	Delete element
