@@ -1,0 +1,12 @@
+package deltabatch123456;
+
+public class Table {
+	public static void main(String []args)
+	{
+		int a,sum=1;
+		for(a=1; a<=5; a++)
+			a=sum+a;
+		System.out.println(a);
+	}
+
+}

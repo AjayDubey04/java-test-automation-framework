@@ -1,0 +1,4 @@
+com\eva\vtiger\testscripts\MarketingAccountTestScripts.class
+com\eva\vtiger\testscripts\MarketingLeadsTestScripts.class
+com\eva\vtiger\base\BaseClass.class
+com\eva\vtiger\testscripts\InventryInvoiceTestScripts.class

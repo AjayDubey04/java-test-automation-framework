@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;com.evs.selenium&apos; to &apos;com.selenium.framework&apos;" description="Rename resource &apos;com.evs.selenium&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/com.evs.selenium" name="com.selenium.framework" stamp="1689777163837" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;rest.api&apos; to &apos;org.rest.api&apos;" description="Rename resource &apos;rest.api&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/rest.api" name="org.rest.api" stamp="1689946300400" updateReferences="true"/>
+</session>

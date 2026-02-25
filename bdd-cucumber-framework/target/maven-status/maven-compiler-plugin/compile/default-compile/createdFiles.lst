@@ -1,0 +1,9 @@
+com\vtigercrm\page\marketingaccounts\MarketingAccountsCreateNewAccountPageOR.class
+com\vtigercrm\page\marketingaccounts\MarketingLandingAccountsPage.class
+com\vtigercrm\utilitylayer\WebUtil.class
+com\vtigercrm\page\common\CommonPageCodes.class
+com\vtigercrm\page\homepage\VtigerLandingHomePage.class
+com\vtigercrm\page\marketingaccounts\MarketingLandingAccountsPageOR.class
+com\vtigercrm\page\common\CommonPageOR.class
+com\vtigercrm\page\homepage\VtigerLandingHomePageOR.class
+com\vtigercrm\page\marketingaccounts\MarketingAccountsCreateNewAccountPage.class

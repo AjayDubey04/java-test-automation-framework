@@ -1,0 +1,64 @@
+package Each.And.Every;
+
+public class Overriding  {
+	
+	
+	public static String run(String str) {
+		System.out.println("Run");
+		return null;
+	}
+	
+	public int car(int a) {
+		System.out.println("Car");
+		return 5;
+	}
+	public static void main(String[] args) {
+		
+		InheritDemo obj=new InheritDemo("hello");
+		
+		Integer a=3;
+		String str="dvgv";
+		
+	}
+	
+
+}
+
+
+class Overriding_1 extends Overriding {
+	
+	
+	public static String run(String str) {
+		System.out.println("Run");
+		return null;
+	}
+	
+	public int car(int a) {
+		System.out.println(" Child Car");
+		return 5;
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		Overriding obj=new Overriding_1();
+		
+		String s1="Java";
+		String s2="Java";
+		if(s1==s2) {
+			System.out.println("True First");
+		}else {
+			System.out.println("False Second");
+		}
+		
+		String str1=new String("Hello");
+		String str2=new String("Hello");
+		if(str1.equals(str2)) {
+			System.out.println("True Second");
+		}else {
+			System.out.println("False Second");
+		}
+		
+		
+	}
+}

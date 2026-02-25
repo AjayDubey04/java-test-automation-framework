@@ -1,0 +1,23 @@
+package up.and.down.casting;
+
+public  class A {
+	
+	private A() {
+		System.out.println("this is public constructor of A class");
+	}
+	
+	public void a1() {
+		System.out.println("A1");
+	}
+	
+	public void a2() {
+		System.out.println("A2");
+	}
+	
+	public void a3() {
+		System.out.println("A3");
+	}
+	
+	
+
+}

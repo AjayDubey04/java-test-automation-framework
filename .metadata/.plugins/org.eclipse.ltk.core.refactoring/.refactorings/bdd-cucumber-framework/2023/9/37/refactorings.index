@@ -1,0 +1,21 @@
+1694342865949	Rename package 'com.testscript.runner'
+1694342901998	Move 'MarketingAccount.feature' to 'Marketing'
+1694343183215	Rename type 'TestCaseRunner'
+1694343265155	Rename package 'MarketingStepDefs'
+1694441029922	Rename resource 'MarketingAccount.feature'
+1694441049696	Rename resource 'MarketingAccount.features'
+1694441759574	Rename package 'com.common.reusablecodes'
+1694441778831	Rename package 'com.marketing.accounts.page'
+1694441801038	Rename package 'com.utility.layer'
+1694441886038	Rename type 'CommonReusableCodes'
+1694441903046	Rename type 'CommonReusableCodesOR'
+1694442001903	Rename resource 'MarketingAccount.feature'
+1694584382193	Move compilation unit
+1694615281588	Copy compilation unit
+1694615296940	Delete element
+1694615344339	Delete element
+1694615704216	Rename package 'com.eva.login.stepdefs'
+1694835064927	Rename package 'com.marketing.stepdefs'
+1694835088969	Rename package 'com.vtiger.loginpage.stepdefs'
+1694835844615	Delete element
+1694835850845	Delete element

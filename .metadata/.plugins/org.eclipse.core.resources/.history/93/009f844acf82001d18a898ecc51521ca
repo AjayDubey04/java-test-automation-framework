@@ -1,0 +1,79 @@
+package Automation_Practice;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class RelationXpath {
+
+	public static void main(String[] args) throws InterruptedException {
+
+//				relationXPath();
+		xPathHomePage();
+
+	}
+	public static void relationXPath() {
+
+		System.setProperty("webdriver.chrome.driver","driver//chromedriver.exe");
+		ChromeDriver driver=new ChromeDriver();
+		driver.get("http://localhost:8888");
+		driver.findElementByName("user_name").sendKeys("admin");
+		driver.findElementByName("user_password").sendKeys("admin");
+		driver.findElementByName("Login").click();
+
+		List<WebElement> weTabLink=driver.findElements(By.xpath("//table[@class='hdrTabBg']//descendant::a[contains(@href,'index.php')]"));
+		int linkCount=weTabLink.size();
+
+		for(int i=0; i<linkCount; i++) {
+			WebElement linkText=weTabLink.get(i);
+			String tabInnerText=linkText.getText();
+			System.out.println(tabInnerText);
+		}
+		
+ 		System.out.println();
+		
+		List<WebElement> webBox=driver.findElementsByXPath("//div[@id='MainMatrix']//descendant::tr[@class='headerrow']//b");
+		int webBoxCount=webBox.size();
+		for(int i=0; i<webBoxCount; i++) {
+			WebElement weBoxText=webBox.get(i);
+			String WebBoxInnerText= weBoxText.getText();
+			System.out.println(WebBoxInnerText);
+		}
+
+		//		driver.findElementByXPath("//table[@class='hdrTabBg']/tbody/tr//table//td[12]/a").click();
+		//		driver.findElementByXPath("//a[@href='index.php?module=Products&action=CustomView&parenttab=Inventory']").click();
+		//		driver.findElementByXPath("//div[@align='center']/input[@title='Save [Alt+S]']").click();
+
+		//		driver.findElementByXPath("//div[@id='miniCal']//following-sibling::table//a[contains(@href,'Marketing')]").click();
+		//		driver.findElementByXPath("//img[@alt='Create Campaign...']").click();
+		//		driver.findElementByXPath("//div[@id='moreTab']/preceding-sibling::div//input[@value='  Save  ']").click();
+
+
+	}
+	public static  void xPathHomePage() {
+		
+		System.setProperty("webdriver.chrome.driver","driver//chromedriver.exe");
+		ChromeDriver driver=new ChromeDriver();
+		driver.get("http://localhost:8888");
+		driver.findElementByName("user_name").sendKeys("admin");
+		driver.findElementByName("user_password").sendKeys("admin");
+		driver.findElementByName("Login").click();
+		
+		
+		 List<WebElement> weButton=driver.findElementsByXPath("//table[@class='small homePageButtons']//img[contains(@src,'btnL3')]");
+		 int buttonCount=weButton.size();
+//		 List<WebElement> weClose=driver.findElementsByXPath("//img[@src='themes/images/close.gif']");
+		 for(int i=0; i<buttonCount; i++) {
+			 weButton=driver.findElementsByXPath("//table[@class='small homePageButtons']//img[contains(@src,'btnL3')]");
+			 weButton.get(i).click();
+			 driver.findElementsByXPath("//img[@src='themes/images/close.gif']").get(i).click();
+		 }
+	}
+
+}
+
+
+

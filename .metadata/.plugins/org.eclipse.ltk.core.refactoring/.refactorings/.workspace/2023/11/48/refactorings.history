@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;maven.appiumtesting.project&apos; to &apos;mobile.testing.project&apos;" description="Rename resource &apos;maven.appiumtesting.project&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/maven.appiumtesting.project" name="mobile.testing.project" stamp="1701176017068" updateReferences="true"/>
+</session>

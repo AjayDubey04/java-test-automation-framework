@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;aadharpackage&apos; to &apos;Aadhar Card/src&apos;&#x0D;&#x0A;- Original project: &apos;AadharNSProject&apos;&#x0D;&#x0A;- Destination element: &apos;Aadhar Card/src&apos;&#x0D;&#x0A;- Original element: &apos;AadharNSProject/src/aadharpackage&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=Aadhar Card/src" element1="/src&lt;aadharpackage" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1672246034084" version="1.0"/>
+</session>

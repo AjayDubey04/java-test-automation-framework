@@ -1,0 +1,23 @@
+package up.and.down.casting;
+
+public class B {
+	
+	
+	public void b1() {
+		System.out.println("B1");
+	}
+	
+	public void b2() {
+		System.out.println("B2");
+	}
+	
+	public void b3() {
+		System.out.println("B3");
+	}
+	
+	
+	
+	
+	
+
+}

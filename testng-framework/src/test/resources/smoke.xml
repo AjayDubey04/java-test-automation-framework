@@ -1,0 +1,15 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SmokeSuite" verbose="2">
+
+	<parameter name="Browser" value="chrome" />
+	<parameter name="UserName" value="admin" />
+	<parameter name="Password" value="admin" />
+
+	<test name="InventryInvoiceTest">
+		<classes>
+			<class
+				name="com.eva.vtiger.testscripts.InventryInvoiceTestScripts" />
+		</classes>
+	</test>
+</suite> 

@@ -1,0 +1,98 @@
+package SelfPractice;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class SelfVtigerScenario {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+//		vTiger();
+		checkBox();
+		
+
+	}
+
+	public static void vTiger() {
+		
+		System.setProperty("webdriver.chrome.driver","driver//chromedriver.exe");
+		ChromeDriver driver=new ChromeDriver();
+		driver.get("http://localhost:8888");
+		driver.findElementByName("user_name").sendKeys("admin");
+		driver.findElementByName("user_password").sendKeys("admin");
+		driver.findElementByName("Login").click();
+
+		List<WebElement> weTabLink=driver.findElements(By.xpath("//table[@class='hdrTabBg']//descendant::a[contains(@href,'index.php')]"));
+		int linkCount=weTabLink.size();
+		List<WebElement> weIframe=driver.findElementsByXPath("//iframe");
+		System.out.println(weIframe.size());
+		for(int i=0; i<linkCount; i++) {
+			weTabLink=driver.findElements(By.xpath("//table[@class='hdrTabBg']//descendant::a[contains(@href,'index.php')]"));
+			WebElement linkText=weTabLink.get(i);
+			String tabInnerText=linkText.getText();
+			System.out.println(" == "+tabInnerText+" == ");
+			List<WebElement> weIframe1=driver.findElementsByXPath("//iframe");
+			System.out.println(weIframe1.size());
+			linkText.click();
+			
+			List<WebElement> obj=driver.findElementsByXPath("//table[@class='level2Bg']//a");
+			for(int j=0; j<obj.size(); j++) {
+				obj=driver.findElementsByXPath("//table[@class='level2Bg']//a");
+				System.out.println(obj.get(j).getText());
+				obj.get(j).click();
+				obj=driver.findElementsByXPath("//table[@class='level2Bg']//a");
+				List<WebElement> weIframe2=driver.findElementsByXPath("//iframe");
+				System.out.println(weIframe2.size());
+				if(obj.get(j).getText().equalsIgnoreCase("Webmail")==false && obj.get(j).getText().equalsIgnoreCase("Settings")==false && obj.get(j).getText().equalsIgnoreCase("Module Manager")==false) {
+				WebElement weMod=driver.findElementByXPath("//td[@class='moduleName']");
+				System.out.println(weMod.getText());
+				  
+			}
+			}
+		}
+
+		System.out.println();
+
+		List<WebElement> webBox=driver.findElementsByXPath("//div[@id='MainMatrix']//descendant::tr[@class='headerrow']//b");
+		int webBoxCount=webBox.size();
+		
+		for(int i=0; i<webBoxCount; i++) {
+			WebElement weBoxText=webBox.get(i);
+			String WebBoxInnerText=weBoxText.getText();
+			System.out.println(WebBoxInnerText);
+		}
+	}
+	
+	public static void checkBox() throws InterruptedException {
+		
+		System.setProperty("webdriver.chrome.driver","driver//chromedriver.exe");
+		ChromeDriver driver=new ChromeDriver();
+		driver.get("http://localhost:8888");
+		driver.findElementByName("user_name").sendKeys("admin");
+		driver.findElementByName("user_password").sendKeys("admin");
+		driver.findElementByName("Login").click();
+		
+        driver.findElementByLinkText("Marketing").click();
+		List<WebElement> weCheakBox=driver.findElementsByXPath("//a[@title='Campaigns']");
+		int count=weCheakBox.size();
+		for(int i=0; i<count; i++) {
+			String listBoxText=weCheakBox.get(i).getText();
+			if(listBoxText.equalsIgnoreCase("Hello")) {
+				List<WebElement> weCheckBox=driver.findElementsByXPath("//input[@name='selected_id']");
+				int count1=weCheckBox.size();
+				for(int j=0; j<count1; j++) {
+					weCheckBox.get(i).click();
+					if(weCheckBox.get(i).isSelected()==true) {
+						driver.findElementByXPath("//input[contains(@onclick,'Marketing')]//preceding-sibling::input").click();
+						driver.switchTo().alert().dismiss();
+					}
+				}
+			}
+		}
+	}
+	
+}

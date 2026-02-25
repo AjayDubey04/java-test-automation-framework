@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;hjk&apos; to &apos;sdfghjk&apos;" description="Move &apos;hjk&apos; to &apos;sdfghjk&apos;" destination="/sdfghjk" element1="/WebDriver/hjk" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1673972451164" updateReferences="true"/>
+</session>

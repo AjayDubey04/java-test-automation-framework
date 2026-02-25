@@ -1,0 +1,11 @@
+package Each.And.Every;
+
+public class InheritDemo {
+	
+
+
+	  InheritDemo(String str) {
+       System.out.println(str);
+	}
+
+}

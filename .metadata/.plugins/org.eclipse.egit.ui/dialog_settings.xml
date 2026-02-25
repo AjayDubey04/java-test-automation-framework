@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel" value="0"/>
+	<item key="GitSelectRepositoryPage.lastRepository" value="C:\Users\hp\git\TestingProject\.git"/>
+	<list key="CommitDialog.authorValues">
+		<item value="createrajay229 &lt;151916900+createrajay229@users.noreply.github.com&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="createrajay229 &lt;151916900+createrajay229@users.noreply.github.com&gt;"/>
+	</list>
+	<list key="EGit.KnownHosts">
+		<item value="bitbucket.org"/>
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="AjayDubey04@github.com:https://github.com/AjayDubey04/TestingProject.git"/>
+		<item value="https://github.com/AjayDubey04/TestingProject.git"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\hp\eclipse-workspace\1-aadhar-card\.git">
+			<item value="true"/>
+			<item value="createrajay229 &lt;151916900+createrajay229@users.noreply.github.com&gt;"/>
+			<item value="first commit"/>
+			<item value="createrajay229 &lt;151916900+createrajay229@users.noreply.github.com&gt;"/>
+			<item value="c5f9c4095966afdaabc9a4e0cada86c58f4c8132"/>
+			<item value="0"/>
+			<item value="true"/>
+			<item value=""/>
+		</list>
+		<list key="C:\Users\hp\git\TestingProject\.git">
+			<item value="false"/>
+			<item value="createrajay229 &lt;151916900+AjayDubey04@users.noreply.github.com&gt;"/>
+			<item value="First Commit"/>
+			<item value="createrajay229 &lt;151916900+createrajay229@users.noreply.github.com&gt;"/>
+			<item value="f6db2c21e12e638ed1f4b52ea0063dc3a04db19a"/>
+			<item value="0"/>
+			<item value="false"/>
+			<item value=""/>
+		</list>
+	</section>
+	<section name="GitImportWizard">
+	</section>
+</section>

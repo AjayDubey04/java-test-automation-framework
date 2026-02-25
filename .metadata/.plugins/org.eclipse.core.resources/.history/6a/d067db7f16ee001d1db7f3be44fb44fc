@@ -1,0 +1,19 @@
+package up.and.down.casting;
+
+public   interface A {
+	
+	public static void a1() {
+		System.out.println("A1");
+	}
+	
+	public static void a2() {
+		System.out.println("A2");
+	}
+	
+	public static void a3() {
+		System.out.println("A3");
+	}
+	
+	
+
+}

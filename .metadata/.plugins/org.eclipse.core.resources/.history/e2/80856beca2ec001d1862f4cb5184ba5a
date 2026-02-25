@@ -1,0 +1,46 @@
+package Each.And.Every;
+
+public class Overriding {
+	
+	
+	public static String run(String str) {
+		System.out.println("Run");
+		return null;
+	}
+	
+	public int car(int a) {
+		System.out.println("Car");
+		return 5;
+	}
+	
+	
+
+}
+
+
+class Overriding_1 extends Overriding {
+	
+	
+	public static String run(String str) {
+		System.out.println("Run");
+		return null;
+	}
+	
+	public int car(int a) {
+		System.out.println(" Child Car");
+		return 5;
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		Overriding obj=new Overriding_1();
+		obj.r
+	}
+	
+	
+	
+	
+	
+	
+}

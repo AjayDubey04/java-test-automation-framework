@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="RestApi_Jar/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="RestApi_Jar/commons-lang3-3.11.jar"/>
+	<classpathentry kind="lib" path="RestApi_Jar/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="RestApi_Jar/groovy-3.0.7.jar"/>
+	<classpathentry kind="lib" path="RestApi_Jar/groovy-json-3.0.7.jar"/>
+	<classpathentry kind="lib" path="RestApi_Jar/groovy-xml-3.0.7.jar"/>
+	<classpathentry kind="lib" path="RestApi_Jar/hamcrest-2.1.jar"/>
+	<classpathentry kind="lib" path="RestApi_Jar/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="RestApi_Jar/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="RestApi_Jar/httpmime-4.5.3.jar"/>
+	<classpathentry kind="lib" path="RestApi_Jar/jakarta.activation-api-1.2.2.jar"/>
+	<classpathentry kind="lib" path="RestApi_Jar/jakarta.xml.bind-api-2.3.3.jar"/>
+	<classpathentry kind="lib" path="RestApi_Jar/jaxb-impl-2.3.3.jar"/>
+	<classpathentry kind="lib" path="RestApi_Jar/json-path-4.3.3.jar"/>
+	<classpathentry kind="lib" path="RestApi_Jar/rest-assured-4.3.3.jar"/>
+	<classpathentry kind="lib" path="RestApi_Jar/rest-assured-common-4.3.3.jar"/>
+	<classpathentry kind="lib" path="RestApi_Jar/tagsoup-1.2.1.jar"/>
+	<classpathentry kind="lib" path="RestApi_Jar/xml-path-4.3.3.jar"/>
+	<classpathentry kind="lib" path="Org_Json_Jar/json-20230618.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

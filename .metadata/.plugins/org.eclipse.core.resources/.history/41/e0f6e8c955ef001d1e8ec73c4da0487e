@@ -1,0 +1,23 @@
+package Each.And.Every;
+
+public class InheritDemo {
+	
+	
+
+//	public  InheritDemo(boolean a) {
+//
+//	}
+//
+//	private  InheritDemo(double b) {
+//
+//	}
+//
+//	protected InheritDemo(int a) {
+//
+//	}
+
+	protected  InheritDemo(String str) {
+       System.out.println(str);
+	}
+
+}

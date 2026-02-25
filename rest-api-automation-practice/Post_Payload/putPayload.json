@@ -1,0 +1,26 @@
+{
+    "id": "5676477903273984",
+    "properties": [
+        {
+            "type": "SYSTEM",
+            "name": "first_name",
+            "value": "Roshan"
+        },
+        {
+            "type": "SYSTEM",
+            "name": "last_name",
+            "value": "Ahir"
+        },
+        {
+            "type": "SYSTEM",
+            "name": "email",
+            "subtype": "work",
+            "value": "samson@walt.ltd"
+        },
+        {
+            "type": "SYSTEM",
+            "name": "address",
+            "value": "{\"address\":\"225 George Street\",\"city\":\"NSW\",\"state\":\"Sydney\",\"zip\":\"2000\",\"country\":\"Australia\"}"
+        }
+    ]
+}

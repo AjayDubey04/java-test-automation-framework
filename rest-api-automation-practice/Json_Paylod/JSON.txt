@@ -1,0 +1,24 @@
+
+{
+
+ "FirstName":"Ajay",
+ "LastName":"Dubey",
+ "age": 21,
+ "gender": "Male",
+
+ "subjects": ["Math","Science","English"],
+
+ "Address":["Mondh","Kochhiya"],
+
+ "Education Mask" :[
+  {
+  "Tenth SchoolName":"SSIC",
+  "Tenth Number":"67.8%"
+ },
+ {
+ "Twelth SchoolName":"SSIC",
+ "Twelth Number":"67.8%"
+ }
+]
+
+}

@@ -1,0 +1,21 @@
+package org.vtigercrm.testscript.runner;
+
+
+import org.generic.layer.WebUtil_V2;
+import org.openqa.selenium.support.PageFactory;
+import org.vtigercrm.testcases.VerifyMarketingAccount_V2;
+
+public class RunnerV2 {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		VerifyMarketingAccount_V2 obj=PageFactory.initElements(WebUtil_V2.driver, VerifyMarketingAccount_V2.class);
+		obj.verifyMarketingAccountCreationTC001();
+		//		obj.verifytMarketingAccountChecBoxesTC002();
+		//		obj.verifyAccountTableRowCountTC003();
+		//		obj.verifyMerketingAccountTableRowTC004();
+
+		
+	}
+
+}

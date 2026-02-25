@@ -1,0 +1,26 @@
+1691418134704	Delete element
+1691421553780	Rename package 'org.testcase.runner'
+1691421657083	Move compilation unit
+1691421728163	Delete element
+1691421787111	Rename package 'org.vtiger.testcase.runner'
+1691421829819	Rename package 'org.vtiger.testscript'
+1691421878212	Rename package 'org.vtiger.crm.testcases.runner'
+1691421917632	Rename package 'org.vtiger.app.common.reusablecode'
+1691421930211	Rename package 'org.vtiger.crm.common.reusablecode'
+1691422231120	Rename type 'WebUtilsLayer'
+1691422409531	Rename type 'RunnerLayer'
+1691632231489	Rename package 'org.vtiger.crm.my.home.page.calendar'
+1691632246614	Rename package 'org.vtiger.crm.my.home.page.webmail'
+1691632266372	Rename package 'org.vtiger.crm.my.home.page.home'
+1691632302924	Rename package 'org.vtiger.crm.home.marketing.accounts'
+1691632335538	Rename package 'org.vtiger.crm.testscript.runner'
+1691632349951	Rename package 'org.vtiger.crm.testcases'
+1691632369419	Rename package 'org.vtiger.crm.myhomepage.webmail'
+1691632385773	Rename package 'org.vtiger.crm.common.reusablecodes'
+1691632400366	Rename package 'org.vtiger.crm.myhomepage.home'
+1691632413953	Rename package 'org.vtiger.crm.myhomepage.calendar'
+1691632475470	Rename package 'org.vtiger.crm.marketing.accounts'
+1691852991806	Delete element
+1691853000839	Delete element
+1691853009073	Delete element
+1691860883683	Rename type 'MarketingAccount'
